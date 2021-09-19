@@ -1,0 +1,67 @@
+.top{
+    text-align: center;
+    margin-top:1em;
+    line-height: 5%;
+}
+
+.headerOptions{
+    word-spacing: 1cm;
+    text-align: center;
+}
+nav a{
+    color: black;
+    text-decoration: none;
+}
+nav ul {
+	margin: 0px;
+	list-style-type: none;
+	padding: 5px 0px 5px 0px;
+    text-align: center;
+}
+nav ul li {
+	display: inline;
+	padding: 5px 10px 5px 10px;
+}
+
+.images{
+    border: 5px solid #555;
+  }
+.aboutMe h1{
+      font-size: 44px;
+      text-align: center;
+      margin-left: 10%;
+  }
+.aboutMe img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .aboutMe p{
+     text-align: left;
+     font-size: 22px;
+ }
+
+.articleBox {
+    border: 5px solid black;
+    width: 75%;
+    font-size: 18px;
+    margin-left: 10%;
+    margin-right: 15%;
+}
+
+.articleBox p{
+    padding-left: 15%;
+}
+
+.describeBox{
+    width: 50%;
+    margin-left: 10%;
+    border: 5px solid black;
+    text-align: center;
+    padding-bottom: 1.6em;
+}
+.describeBox button{
+    cursor: pointer;
+}
+
+
