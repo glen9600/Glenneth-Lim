@@ -5,10 +5,7 @@ function CalculateTotalProfit(Number_Of_CRO,Number_Of_LTC)
 {
   var LTC_Profit = Number_Of_LTC * 190;
   var CRO_Profit = Number_Of_CRO * 0.20;
-  
   var Total_Profit =  LTC_Profit + CRO_Profit;
-  
- return Total_Profit; 
+ document.write(Total_Profit);
   }
 
-console.log(CalculateTotalProfit(Number_Of_CRO,Number_Of_LTC));
