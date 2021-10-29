@@ -5,7 +5,7 @@ function CalculateTotalProfit(Number_Of_CRO,Number_Of_LTC)
 {
   var LTC_Profit = Number_Of_LTC * 190;
   var CRO_Profit = Number_Of_CRO * 0.20;
-  let Total_Profit =  LTC_Profit + CRO_Profit;
- return Total_Profit;
+  let Total_USD_Profit =  LTC_Profit + CRO_Profit;
+ return Total_USD_Profit;
   }
-document.getElementById("Total_Profit").innerHTML = "Total Profit in USD is:" + Total_Profit;
+document.getElementById("Total_Profit").innerHTML = "Total Profit in USD is:" + Total_USD_Profit;
